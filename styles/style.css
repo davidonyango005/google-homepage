@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#header a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+#header .g-account{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+
+}
+
+#mid-section{
+    padding-top: 100px;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+#search-form{
+	text-align: center;
+    outline: 20px;
+    border-radius: 50px;
+}
+
+.search-input{
+    padding-inline: 30px;
+	height: 30px;
+	width: 500px;
+	outline: 0;
+	border-radius: 30px;
+	border: 1px solid rgb(168, 168, 168);
+}
+
+#buttons{
+    padding-top: 10px;
+    text-align: center;
+    border: 50%;
+	cursor: pointer;
+}
+
+button{
+    margin: 5px;
+}
+
+div>img{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#logo-img{
+    padding-top: 20px;
+    height: inherit;
+    align-content: center;
+}
+
+#lang{
+	justify-content: center;
+	margin-top: 20px;
+	display: flex;
+    text-align: left;
+}
+
+#country{
+    margin-top: 180px;
+    text-align: start;
+    padding-left: 50px;
+    background: rgb(227, 227, 231);
+    
+}
+.c-lnk{
+	margin-left: 5px;
+}
+
+
+#footer{
+    display: flexbox;
+    bottom: 0;
+    padding-inline: 2px;
+}
+
+.left-footer{
+    float: left;
+    padding-left: 30px;
+}
+
+.right-footer{
+    float: right;
+    padding-right: 30px;
+}
+
+.left-footer a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.right-footer a{
+    padding-right: 10px;
+    text-decoration: none;
+}
